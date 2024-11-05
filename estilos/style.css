@@ -1,18 +1,17 @@
-/* Reset básico */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Estilos gerais */
+
 body {
   font-family: Arial, sans-serif;
   color: #333;
   background-color: #f9f9f9;
 }
 
-/* Cabeçalho */
 header {
   background-color: #0073e6;
   color: white;
@@ -54,14 +53,14 @@ main {
   padding: 20px;
 }
 
-/* Seção de Projetos - Layout para dispositivos móveis */
+
 .projetos {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-/* Estilos individuais dos projetos */
+
 .projeto {
   background-color: white;
   padding: 20px;
@@ -94,7 +93,7 @@ main {
   text-decoration: underline;
 }
 
-/* Rodapé */
+
 footer {
   text-align: center ;
   padding: 10px;
@@ -104,7 +103,7 @@ footer {
   margin-top: auto;
 }
 
-/* Layout para telas maiores (tablets e desktops) */
+
 @media (min-width: 768px) {
   .projetos {
       display: grid;
