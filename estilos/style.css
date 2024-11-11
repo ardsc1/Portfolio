@@ -51,6 +51,7 @@ menu ul li a:hover {
 
 main {
   padding: 20px;
+  min-height: 79.5vh;
 }
 
 
