@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personalizando links</title>
+</head>
+<style>
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  a{
+    color: black;
+    text-decoration: none;
+  }
+  a:hover{
+    text-decoration: underline;
+    color: red;
+  }
+  a::after{
+    content:' (link) ' ;
+  }
+</style>
+<body>
+  <h1>Links</h1>
+  <ul>
+    <li><a href="https://github.com/ardsc1/athos" target="_blank">Repositoria GitHub</a</li>
+    <li><a href="https://www.youtube.com/watch?v=7RWbq-lbBlk&list=RD7RWbq-lbBlk&start_radio=1"target="_blank">Canal youtube</a></li>
+    <li><a href="https://bsky.app/" target="_blank" >Twitter</a></li>
+  </ul>
+</body>
+</html>

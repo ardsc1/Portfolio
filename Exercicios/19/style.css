@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body{
+background-color: rgb(48, 47, 47);
+color: rgb(250, 248, 248);
+}
+h1{
+  color: rgb(30, 170, 60);
+  
+}
+.principal {
+  color: rgb(184, 71, 71);
+  text-align: center;
+  text-decoration: underline;
+
+}
+h2{
+  color: rgba(16, 206, 73, 0.986);
+}
+
+button{
+  height: 50PX;
+  width: 100PX;
+  background-color: red;
+  color: rgb(7, 7, 7);
+  text-decoration: none;
+  border: none;
+  border-radius: 12px;
+  }
+ 
