@@ -5,7 +5,10 @@
 *{
   padding: 0px;
 }
-
+svg{
+  margin-right: 100%;
+  margin-top: -5px;
+}
 p{
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
