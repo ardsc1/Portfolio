@@ -6,6 +6,79 @@
   <title>Document</title>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <style>
+      * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: rgb(0, 0, 0);
+  padding: 1rem 2rem;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background: #fff;
+  border-radius: 2px;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    gap: 1rem;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    background-color: #353535;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}
 body{
   background-image: url(espaco.jpg
   );
@@ -22,13 +95,34 @@ svg {
   margin-left: 5px;
   margin-top: 5px;
 }
+nav.navbar > a{
+  text-decoration: none;
+}
 </style>
 </head>
 <body>
+  <header>
+    <nav class="navbar" onclick="clickMenu()">
+      <a href="../index.html">
+        <h1 class="logo">Início</h1>
+      </a>
+      <ul class="nav-links">
+        <li><a href="../pag03.html">Sobre</a></li>
+        <li><a href="../index.html">Desafios</a></li>
+        <li><a href="../pag02.html">Atividades</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+  
+  <script src="script.js">     
+  </script>
 <div class="bloco" id="q1">
-  <a href="../index.html"><abbr title="Voltar para o início">
-    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="white"><path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/></svg>
-  </abbr></a>
+  
   
  
 </div>
