@@ -7,11 +7,28 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <a href="../index.html"><abbr title="Voltar para o início">
-    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="black"><path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/></svg>
-  </abbr></a>
-  <main>
-    
+
+  <header>
+    <nav class="navbar" onclick="clickMenu()">
+      <a href="../index.html">
+        <h1 class="logo">Início</h1>
+      </a>
+      <ul class="nav-links">
+        <li><a href="../pag03.html">Sobre</a></li>
+        <li><a href="../index.html">Desafios</a></li>
+        <li><a href="../pag02.html">Atividades</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+  <script src="script.js">     
+  </script>
+
+  <main>   
     <div id="conteudo">
       <div id="perfil">
         <div id="eu"><img src="download (1).jfif" alt="foto">
@@ -26,18 +43,19 @@
               <li>Estado: Minas Gerais</li>
             </ul>
         </div>
+      </div>
         <div id="eu2">
            <h1 style=" padding-bottom: 15px ;font-size: 20px;">Quem sou eu?</h1>
-           <p style="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi accusantium facere dignissimos nam eum, in distinctio sapiente vitae excepturi vel! Exercitationem quae sint tempora harum cumque. voluptas quod!
+           <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi accusantium facere dignissimos nam eum, in distinctio sapiente vitae excepturi vel! Exercitationem quae sint tempora harum cumque. voluptas quod!
            </p>
         </div>
-      </div>
+      
       <div id="links">
         <a href="#">Instagram</a>
         <a href="#">Linkedin</a>
         <a href="#">Github</a>
       </div>
-    </div>
+      </div>
     <div id="projetos">
       <h2 style="text-align: center; ">Meus Projetos</h1>
       <div class="retangulo"></div>

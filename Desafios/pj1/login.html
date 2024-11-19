@@ -7,9 +7,25 @@
     <link rel="stylesheet" href="login.css">
 </head>
 <body>
-    <a href="../index.html"><abbr title="Voltar para o início">
-        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="white"><path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/></svg>
-      </abbr></a>
+    <header>
+        <nav class="navbar" onclick="clickMenu()">
+          <a href="../index.html">
+            <h1 class="logo">Início</h1>
+          </a>
+          <ul class="nav-links">
+            <li><a href="../pag03.html">Sobre</a></li>
+            <li><a href="../index.html">Desafios</a></li>
+            <li><a href="../pag02.html">Atividades</a></li>
+          </ul>
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </nav>
+      </header>
+      <script src="script.js">     
+      </script>
     <div class="container">
         <h2>Login</h2>
         <form action="login.php" method="POST">
