@@ -1,162 +1,234 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meus Projetos</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons" />
-    <link rel="stylesheet" href="estilos/style.css">
+    <title>Meu Portfólio</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+        main{
+            height: 80vh;
+        }
+        header h1 {
+            text-align: center;
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+
+        .navbar {
+            justify-content: center;
+        }
+
+        .navbar-nav {
+            flex-direction: row;
+        }
+
+        .navbar-nav .nav-item {
+            margin: 0 1rem;
+        }
+
+        .navbar-nav a {
+            color: white;
+            font-size: 1.2rem;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+
+        .project {
+            padding: 2rem 0;
+        }
+       
+    </style>
 </head>
 <body>
+   
     <header>
-        <h1>Meus Projetos</h1>
-        <p>Bem-vindo ao meu Portfólio! Aqui você encontra uma seleção dos meus principais projetos.</p>
-        <menu>
-          <ul>
-            <li><a href="pag03.html">Sobre</a></li>
-            <li><a href="index.html">Desafios</a></li>
-            <li><a href="#">Atividades</a></li>
-          </ul>
-        </menu>
+        <div class="container">
+            <h1>Meu Portfólio</h1>
+        </div>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container">
+                <div class="navbar-collapse d-flex justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Desafios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Atividades</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
-    <main>
-        <section class="projetos">
-            <div class="projeto">
-              <h2>Exercicio 1</h2>
-              <p>Olá Mundo. <a href="1/index.html"> Ver mais</a></p>
-            </div>           
-            <div class="projeto">
-              <h2>Exercicio 2</h2>
-              <p>Simbolos especiais. <a href="2/index.html">Ver mais</a></p>
-            </div>           
-            <div class="projeto">
-              <h2>Exercicio 3</h2>
-              <p>Testando Imagens. <a href="3/index.html">Ver mais</a></p>
-            </div>           
-            <div class="projeto">
-              <h2>Exercicio 4</h2>
-              <p>Teste de favicon. <a href="4/index.html">Ver mais</a></p>
-            </div>           
-            <div class="projeto">
-              <h2>Exercicio 5</h2>
-              <p>Fonte. <a href="6/html4.html">Ver mais</a></p>
-            </div>           
-            <div class="projeto">
-              <h2>Exercicio 6</h2>
-              <p>Tipos de Textos. <a href="7/index.html">Ver mais</a></p>
-            </div>           
-            <div class="projeto">
-              <h2>Exercicio 7</h2>
-              <p>Mais textos. <a href="8/index.html">Ver mais</a></p>
-            </div>           
-            <div class="projeto">
-              <h2>Exercicio 8</h2>
-              <p>Listas. <a href="9/index.html"> Ver mais</a></p>
-            </div>           
-            <div class="projeto">
-              <h2>Exercicio 9</h2>
-              <p>Colocando Links. <a href="10/index.html">Ver mais</a></p>
-            </div>           
-            <div class="projeto">
-              <h2>Exercicio 10</h2>
-              <p>Imagem Dinâmica. <a href="11/index.html"> Ver mais</a></p>
-            </div>           
-            <div class="projeto">
-              <h2>Exercicio 11</h2>
-              <p>Videos. <a href="12/atv.html">Ver mais</a></p>
-            </div>           
-            <div class="projeto">
-              <h2>Exercicio 12</h2>
-              <p>Navegar entre sites. <a href="13/index.html">Ver mais</a></p>
-            </div>           
-            <div class="projeto">
-              <h2>Exercicio 13</h2>
-               <p> Usando Cores: <br> <br>
-                 <a href="16/cor01.html">Cor 1</a> -
-                <a href="16/cor02.html">Cor 2</a> -
-                <a href="16/cor03.html">Cor 3</a>
-               </p>                          
-              </p>
-            </div>           
-            <div class="projeto">
-              <h2>Exercicio 14</h2>
-              <p> Tipos de Fontes: <br> <br>
-                <a href="17/font01.html" target="_blank"> Fonte 1</a> -
-                <a href="17/fonte02.html" target="_blank">Fonte 2</a> -
-                <a href="18/fonte01.html" target="_blank">Fonte 3</a> -
-                <a href="18/fonte02.html" target="_blank">Fonte 4</a>
-              </p>
-            </div>           
-            <div class="projeto">
-              <h2>Exercicio 15</h2>
-              <p>Site html css. <a href="19/sele.html" target="_blank"> Ver mais</a></p>
-            </div>           
-            <div class="projeto">
-              <h2>Exercicio 16</h2>
-              <p> Usando Hover: <br> <br>
-                <a href="20/hover.html" target="_blank">Hover 1</a> -
-                <a href="20/index.html" target="_blank">Hover 2</a> -
-                <a href="20/links.html" target="_blank">Hover 3</a> 
-              </p>
-            </div>           
-            <div class="projeto">
-              <h2>Exercicio 17</h2>
-              <p> Usando Caixas: <br> <br>
-                <a href="21/caixa01.html" target="_blank">Caixa</a> -
-                <a href="21/caixa.02.html" target="_blank">Caixa 2</a>
-              </p>
-            </div>           
-            <div class="projeto">
-              <h2>Exercicio 18</h2>
-              <p> Mudando o Background: <br> <br>
-                <a href="22/fundo.html" target="_blank">Fundo 1</a> -<a href="22/fundo02.html" target="_blank"> Fundo 2</a> -<a href="22/fundo03.html" target="_blank"> Fundo 3</a> <br>
-                <a href="22/fundo004.html" target="_blank">Fundo 4</a> -<a href="22/fundo005.html" target="_blank"> Fundo 5</a> -<a href="22/fundo06.html" target="_blank"> Fundo 6</a><br>
-                <a href="22/fundo07.html" target="_blank">Fundo 7</a>
-              </p>
-            </div>           
-            <div class="projeto">
-              <h2>Exercicio 19</h2>
-              <p>Criando Tabelas: <br> <br>
-                <a href="Exercicios/23/tabela01.html" target="_blank">Tabela 1</a> - <a href="23/tabela02.html" target="_blank">Tabela 2</a> - <a href="23/tabela03.html" target="_blank">Tabela 3</a> <br>
-                <a href="23/tabela04.html" target="_blank">Tabela 4</a> - <a href="Exercicios/23/table05.html" target="_blank">Tabela 5</a> - <a href="23/tabela06.html" target="_blank">Tabela 6</a>
-              </p>
-            </div>           
-            <div class="projeto">
-              <h2>Exercicio 20</h2>
-              <p> Usando Iframe: <br> <br>
-                <a href="24/ifram01.html" target="_blank">Iframe 1</a> - <a href="24/iframe02.html" target="_blank"> Iframe 2</a> - <a href="24/iframe04.html" target="_blank">Iframe 3</a> -
-                <a href="24/iframe05.html">Iframe 4</a>
-              </p>
-            </div>           
-            <div class="projeto">
-              <h2>Exercicio 21</h2>
-              <p> Criando Formularios: <br> <br><a href="25input/form01.html" target="_blank">Form 1</a> - <a href="25input/form02.html" target="_blank
-                "> Form 2</a> - <a href="25input/form03.html" target="_blank
-                ">Form 3</a><br>
-              <a href="25input/form04.html" target="_blank
-              ">Form 4</a> - <a href="25input/form05.html" target="_blank
-              ">Form 5</a> - <a href="25input/form06.html" target="_blank
-              ">Form 6</a> <br>
-              <a href="25input/form07.html" target="_blank
-              ">Form 7</a> - <a href="25input/form08.html" target="_blank
-              ">Form 8</a> - <a href="25input/form09.html" target="_blank
-              ">Form 9</a><br>
-              <a href="25input/form10.html" target="_blank
-              ">Form 10</a>
-              
-              </p>
-            </div>           
-            <div class="projeto">
-              <h2>Exercicio 22</h2>
-              <p>mediaqueries: <br> <br> <a href="26%20mediaqueries/mq01/index.html" target="_blank">Mq1</a> - <a href="26%20mediaqueries/mq03/index.html" target="_blank">Mq2</a> -
-              <a href="26%20mediaqueries/mq04/index.html" target="_blank">Mq3</a> - <a href="26%20mediaqueries/mq05/index.html" target="_blank">Mq4</a>
-              </p>
-            </div>           
-                       
-        </section>
-    </main>
-    <footer>
-        <p>Feito por Athos Ruah.</p>
-    </footer>
+
+   
+  <main class="container project">
+    <div class="row">
+     <div class="col-12">
+     <h2 class="text-center mb-4">Atividades</h2>
+     </div>
+
+    <div class="col-lg-3 col-md-6 mb-4">
+    <div class="card">                    
+        <div class="card-body">
+            <h5 class="card-title">Atividade 1</h5>
+            <p class="card-text">Olá Mundo</p>
+            <a href="1/index.html" class="btn btn-primary">Ver mais</a>
+      </div>
+    </div>
+    </div>
+    <div class="col-lg-3 col-md-6 mb-4">
+    <div class="card">                   
+        <div class="card-body">
+            <h5 class="card-title">Atividade 2</h5>
+            <p class="card-text">Simbolos Especiais.</p>
+            <a href="2/index.html" class="btn btn-primary">Ver mais</a>
+       </div>
+    </div>
+    </div>
+    <div class="col-lg-3 col-md-6 mb-4">
+    <div class="card">                   
+        <div class="card-body">
+            <h5 class="card-title">Atividade 3</h5>
+            <p class="card-text">Colocando Imagens.</p>
+            <a href="3/index.html" class="btn btn-primary">Ver mais</a>
+        </div>
+    </div>
+    </div>
+    <div class="col-lg-3 col-md-6 mb-4">
+    <div class="card">                   
+      <div class="card-body">
+          <h5 class="card-title">Atividade 4</h5>
+          <p class="card-text">Favicon</p>
+          <a href="4/index.html" class="btn btn-primary">Ver mais</a>
+      </div>
+    </div>
+    </div>
+    <div class="col-lg-3 col-md-6 mb-4">
+    <div class="card">                   
+    <div class="card-body">
+        <h5 class="card-title">Atividade 5</h5>
+        <p class="card-text">Fonte</p>
+        <a href="6/html4.html" class="btn btn-primary">Ver mais</a>
+    </div>
+    </div>
+    </div>
+    <div class="col-lg-3 col-md-6 mb-4">
+    <div class="card">                   
+    <div class="card-body">
+      <h5 class="card-title">Atividade 6</h5>
+      <p class="card-text">Tipos de texto</p>
+      <a href="7/index.html" class="btn btn-primary">Ver mais</a>
+    </div>
+    </div>
+    </div>
+    <div class="col-lg-3 col-md-6 mb-4">
+     <div class="card">                   
+        <div class="card-body">
+        <h5 class="card-title">Atividade 7</h5>
+        <p class="card-text">Formatações</p>
+        <a href="8/index.html" class="btn btn-primary">Ver mais</a>
+    </div>
+    </div>
+    </div>
+     <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">                   
+        <div class="card-body">
+        <h5 class="card-title">Atividade 8</h5>
+        <p class="card-text">Tipos de Listas</p>
+        <a href="9/index.html" class="btn btn-primary">Ver mais</a>
+    </div>
+    </div>
+    </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">                   
+        <div class="card-body">
+        <h5 class="card-title">Atividade 9</h5>
+        <p class="card-text">Links</p>
+        <a href="10/index.html" class="btn btn-primary">Ver mais</a>
+    </div>
+    </div>
+    </div>
+    <div class="col-lg-3 col-md-6 mb-4">
+     <div class="card">                   
+     <div class="card-body">
+     <h5 class="card-title">Atividade 10</h5>
+     <p class="card-text">Imagem Dinamica</p>
+     <a href="11/index.html" class="btn btn-primary">Ver mais</a>
+    </div>
+    </div>
+    </div>
+    <div class="col-lg-3 col-md-6 mb-4">
+    <div class="card">                   
+     <div class="card-body">
+       <h5 class="card-title">Atividade 11</h5>
+       <p class="card-text">Videos</p>
+       <a href="12/atv.html" class="btn btn-primary">Ver mais</a>
+     </div>
+     </div>
+     </div>
+     <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">                   
+         <div class="card-body">
+           <h5 class="card-title">Atividade 12</h5>
+           <p class="card-text">Navegação entre Sites</p>
+           <a href="13/index.html" class="btn btn-primary">Ver mais</a>
+     </div>
+     </div>
+     </div>
+         <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card">                   
+            <div class="card-body">
+            <h5 class="card-title">Atividade 13</h5>
+            <p class="card-text">Tags < h > </p>
+            <a href="14/index.html" class="btn btn-primary">Ver mais</a>
+     </div>
+     </div>
+     </div>
+         <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card">                   
+            <div class="card-body">
+            <h5 class="card-title">Atividade 14</h5>
+            <p class="card-text">Cores</p>
+            <a href="core.html" class="btn btn-primary">Ver mais</a>
+     </div>
+     </div>
+     </div>   
+     <div class="col-lg-3 col-sm-6 mb-4">
+          <div class="card">                   
+          <div class="card-body">
+          <h5 class="card-title">Atividade 15</h5>
+          <p class="card-text">Fontes</p>
+          <a href="17/font01.html" class="btn btn-primary">Ver mais</a>
+     </div>
+     </div>
+     </div> 
+     <div class="col-lg-3 col-sm-6 mb-4">
+          <div class="card">                   
+          <div class="card-body">
+          <h5 class="card-title">Atividade 16</h5>
+          <p class="card-text">Fontes Externas</p>
+          <a href="18/fonte01.html" class="btn btn-primary">Ver mais</a>
+      </div>
+      </div>
+      </div>     
+</div>
+
+    
+  </main>
+  
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+   
 </body>
 </html>
