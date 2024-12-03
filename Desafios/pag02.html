@@ -15,7 +15,7 @@
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
         }
         main{
-            height: 80vh;
+            flex: 1;
         }
         header h1 {
             text-align: center;
@@ -45,6 +45,19 @@
         .project {
             padding: 2rem 0;
         }
+        h1{
+            text-shadow: 1px 1px 2px rgb(49, 49, 49);
+        }
+        footer {
+    position: relative; /* ou fixed se quiser fixá-lo ao rodapé da página */
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
+              }
+     footer a:hover {
+      text-decoration: underline;
+      color: #007BFF;
+             } 
        
     </style>
 </head>
@@ -52,7 +65,7 @@
    
     <header>
         <div class="container">
-            <h1>Meu Portfólio</h1>
+            <h1 class="">Meu Portfólio</h1>
         </div>
         <nav class="navbar navbar-expand-lg ">
             <div class="container">
@@ -75,12 +88,12 @@
   <main class="container project">
     <div class="row">
      <div class="col-12">
-     <h2 class="text-center mb-4">Atividades</h2>
+     <h2 class="text-center mb-4 ">Atividades</h2>
      </div>
 
-    <div class="col-lg-3 col-md-6 mb-4">
+    <div class="col-lg-3 col-md-6 mb-4 shadow-sm-dark">
     <div class="card">                    
-        <div class="card-body">
+        <div class="card-body shadow">
             <h5 class="card-title">Atividade 1</h5>
             <p class="card-text">Olá Mundo</p>
             <a href="1/index.html" class="btn btn-primary">Ver mais</a>
@@ -89,7 +102,7 @@
     </div>
     <div class="col-lg-3 col-md-6 mb-4">
     <div class="card">                   
-        <div class="card-body">
+        <div class="card-body shadow">
             <h5 class="card-title">Atividade 2</h5>
             <p class="card-text">Simbolos Especiais.</p>
             <a href="2/index.html" class="btn btn-primary">Ver mais</a>
@@ -98,7 +111,7 @@
     </div>
     <div class="col-lg-3 col-md-6 mb-4">
     <div class="card">                   
-        <div class="card-body">
+        <div class="card-body shadow">
             <h5 class="card-title">Atividade 3</h5>
             <p class="card-text">Colocando Imagens.</p>
             <a href="3/index.html" class="btn btn-primary">Ver mais</a>
@@ -107,7 +120,7 @@
     </div>
     <div class="col-lg-3 col-md-6 mb-4">
     <div class="card">                   
-      <div class="card-body">
+      <div class="card-body shadow">
           <h5 class="card-title">Atividade 4</h5>
           <p class="card-text">Favicon</p>
           <a href="4/index.html" class="btn btn-primary">Ver mais</a>
@@ -116,7 +129,7 @@
     </div>
     <div class="col-lg-3 col-md-6 mb-4">
     <div class="card">                   
-    <div class="card-body">
+    <div class="card-body shadow">
         <h5 class="card-title">Atividade 5</h5>
         <p class="card-text">Fonte</p>
         <a href="6/html4.html" class="btn btn-primary">Ver mais</a>
@@ -125,7 +138,7 @@
     </div>
     <div class="col-lg-3 col-md-6 mb-4">
     <div class="card">                   
-    <div class="card-body">
+    <div class="card-body shadow">
       <h5 class="card-title">Atividade 6</h5>
       <p class="card-text">Tipos de texto</p>
       <a href="7/index.html" class="btn btn-primary">Ver mais</a>
@@ -134,7 +147,7 @@
     </div>
     <div class="col-lg-3 col-md-6 mb-4">
      <div class="card">                   
-        <div class="card-body">
+        <div class="card-body shadow">
         <h5 class="card-title">Atividade 7</h5>
         <p class="card-text">Formatações</p>
         <a href="8/index.html" class="btn btn-primary">Ver mais</a>
@@ -143,7 +156,7 @@
     </div>
      <div class="col-lg-3 col-md-6 mb-4">
         <div class="card">                   
-        <div class="card-body">
+        <div class="card-body shadow">
         <h5 class="card-title">Atividade 8</h5>
         <p class="card-text">Tipos de Listas</p>
         <a href="9/index.html" class="btn btn-primary">Ver mais</a>
@@ -152,7 +165,7 @@
     </div>
         <div class="col-lg-3 col-md-6 mb-4">
         <div class="card">                   
-        <div class="card-body">
+        <div class="card-body shadow">
         <h5 class="card-title">Atividade 9</h5>
         <p class="card-text">Links</p>
         <a href="10/index.html" class="btn btn-primary">Ver mais</a>
@@ -161,7 +174,7 @@
     </div>
     <div class="col-lg-3 col-md-6 mb-4">
      <div class="card">                   
-     <div class="card-body">
+     <div class="card-body shadow">
      <h5 class="card-title">Atividade 10</h5>
      <p class="card-text">Imagem Dinamica</p>
      <a href="11/index.html" class="btn btn-primary">Ver mais</a>
@@ -170,7 +183,7 @@
     </div>
     <div class="col-lg-3 col-md-6 mb-4">
     <div class="card">                   
-     <div class="card-body">
+     <div class="card-body shadow">
        <h5 class="card-title">Atividade 11</h5>
        <p class="card-text">Videos</p>
        <a href="12/atv.html" class="btn btn-primary">Ver mais</a>
@@ -179,7 +192,7 @@
      </div>
      <div class="col-lg-3 col-md-6 mb-4">
         <div class="card">                   
-         <div class="card-body">
+         <div class="card-body shadow">
            <h5 class="card-title">Atividade 12</h5>
            <p class="card-text">Navegação entre Sites</p>
            <a href="13/index.html" class="btn btn-primary">Ver mais</a>
@@ -188,7 +201,7 @@
      </div>
          <div class="col-lg-3 col-sm-6 mb-4">
             <div class="card">                   
-            <div class="card-body">
+            <div class="card-body shadow">
             <h5 class="card-title">Atividade 13</h5>
             <p class="card-text">Tags < h > </p>
             <a href="14/index.html" class="btn btn-primary">Ver mais</a>
@@ -197,32 +210,197 @@
      </div>
          <div class="col-lg-3 col-sm-6 mb-4">
             <div class="card">                   
-            <div class="card-body">
+            <div class="card-body shadow">
             <h5 class="card-title">Atividade 14</h5>
-            <p class="card-text">Cores</p>
-            <a href="core.html" class="btn btn-primary">Ver mais</a>
+            <p class="card-text">Fontes</p>
+            <a href="15/index.html" class="btn btn-primary">Ver mais</a>
      </div>
      </div>
      </div>   
      <div class="col-lg-3 col-sm-6 mb-4">
           <div class="card">                   
-          <div class="card-body">
+          <div class="card-body shadow">
           <h5 class="card-title">Atividade 15</h5>
-          <p class="card-text">Fontes</p>
-          <a href="17/font01.html" class="btn btn-primary">Ver mais</a>
+          <p class="card-text">Cores</p>
+          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#conteudocollapse3" aria-expanded="false" aria-controls="conteudoCollapse">
+            Ver Mais
+          </button>
+          <div class="collapse mt-3" id="conteudocollapse3">
+            <a href="16/cor01.html" class="text-decoration-none">Atividade 1</a> <br>
+            <a href="16/cor02.html" class="text-decoration-none">Atividade 2</a> <br>
+            <a href="16/cor03.html" class="text-decoration-none">Atividade 3</a>
+          </div>
+
      </div>
      </div>
      </div> 
      <div class="col-lg-3 col-sm-6 mb-4">
           <div class="card">                   
-          <div class="card-body">
+          <div class="card-body shadow">
           <h5 class="card-title">Atividade 16</h5>
           <p class="card-text">Fontes Externas</p>
           <a href="18/fonte01.html" class="btn btn-primary">Ver mais</a>
       </div>
       </div>
-      </div>     
+      </div>  
+      <div class="col-lg-3 col-sm-6 mb-4">
+        <div class="card">                   
+           <div class="card-body shadow">
+           <h5 class="card-title">Atividade 17</h5>
+           <p class="card-text">Teste HTML</p>
+           <a href="19/sele.html" class="btn btn-primary">Ver mais</a>
+     </div>
+     </div>
+     </div>
+     <div class="col-lg-3 col-sm-6 mb-4">
+        <div class="card">                   
+           <div class="card-body shadow">
+           <h5 class="card-title">Atividade 18</h5>
+           <p class="card-text">Tipos de Hover</p>
+           <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#conteudocollapse4" aria-expanded="false" aria-controls="conteudocollapse4">
+            Ver Mais
+          </button>
+          <div class="collapse mt-3" id="conteudocollapse4">
+            <a href="20/hover.html" class="text-decoration-none" target="_blank">Atividade 1</a> <br>
+            <a href="20/index.html" class="text-decoration-none" target="_blank">Atividade 2</a> <br>
+            <a href="20/links.html" class="text-decoration-none" target="_blank">Atividade 3</a>
+          </div>
+     </div>
+     </div>
+     </div>
+     <div class="col-lg-3 col-sm-6 mb-4">
+        <div class="card">                   
+           <div class="card-body shadow">
+           <h5 class="card-title">Atividade 19</h5>
+           <p class="card-text">Tipos de caixas</p>
+           <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#conteudocollapse2" aria-expanded="false" aria-controls="conteudocollapse2">
+            Ver Mais
+          </button>
+          <div class="collapse mt-2" id="conteudocollapse2">
+           <div class="card card-body">
+            <a href="21/caixa01.html" class="text-decoration-none" target="_blank">Atividade 1</a>
+            <a href="21/caixa.02.html" class="text-decoration-none" target="_blank">Atividade 2</a>
+           </div>
+          </div>
+     </div>
+     </div>
+     </div>  
+     <div class="col-lg-3 col-sm-6 mb-4">
+        <div class="card">                   
+           <div class="card-body shadow">
+           <h5 class="card-title">Atividade 20</h5>
+           <p class="card-text">Fundo</p>
+           <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#conteudoCollapse" aria-expanded="false" aria-controls="conteudoCollapse">
+            Ver Mais
+          </button>
+          <div class="collapse mt-2 " id="conteudoCollapse">
+            <div class="card card-body">
+              <a href="22/fundo.html" class="text-decoration-none" target="_blank" >Atividade 1</a>
+              <a href="22/fundo02.html" class="text-decoration-none" target="_blank" >Atividade 2</a>
+              <a href="22/fundo03.html" class="text-decoration-none"  target="_blank" >Atividade 3</a>
+              <a href="22/fundo004.html" class="text-decoration-none"  target="_blank" >Atividade 4</a>
+              <a href="22/fundo005.html" class="text-decoration-none"  target="_blank" >Atividade 5</a>
+              <a href="22/fundo06.html" class="text-decoration-none"  target="_blank" >Atividade 6</a>
+              <a href="22/fundo07.html" class="text-decoration-none"  target="_blank" >Atividade 7</a>
+            </div>
+          </div>
+        </div>
+     </div>
+     </div>
+
+     <div class="col-lg-3 col-sm-6 mb-4">
+        <div class="card">                   
+           <div class="card-body shadow">
+           <h5 class="card-title">Atividade 21</h5>
+           <p class="card-text">Tabelas</p>
+           <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#conteudocollapse21" aria-expanded="false" aria-controls="conteudocollapse21">
+            Ver Mais
+          </button>
+          <div class="collapse mt-2 " id="conteudocollapse21">
+            <div class="card card-body">
+              <a href="23/tabela01.html" class="text-decoration-none" target="_blank" >Atividade 1</a>
+              <a href="23/tabela02.html" class="text-decoration-none" target="_blank" >Atividade 2</a>
+              <a href="23/tabela03.html" class="text-decoration-none"  target="_blank" >Atividade 3</a>
+              <a href="23/tabela04.html" class="text-decoration-none"  target="_blank" >Atividade 4</a>
+              <a href="23/table05.html" class="text-decoration-none"  target="_blank" >Atividade 5</a>
+              <a href="23/tabela06.html" class="text-decoration-none"  target="_blank" >Atividade 6</a>             
+            </div>
+          </div>
+        </div>
+     </div>
+     </div>
+
+     <div class="col-lg-3 col-sm-6 mb-4">
+        <div class="card">                   
+           <div class="card-body shadow">
+           <h5 class="card-title">Atividade 22</h5>
+           <p class="card-text">Iframe</p>
+           <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#conteudocollapse22" aria-expanded="false" aria-controls="conteudocollapse22">
+            Ver Mais
+          </button>
+          <div class="collapse mt-2 " id="conteudocollapse22">
+            <div class="card card-body">
+              <a href="24/ifram01.html" class="text-decoration-none" target="_blank" >Atividade 1</a>
+              <a href="24/iframe02.html" class="text-decoration-none" target="_blank" >Atividade 2</a>
+              <a href="24/iframe03.html" class="text-decoration-none"  target="_blank" >Atividade 3</a>
+              <a href="24/iframe04.html" class="text-decoration-none"  target="_blank" >Atividade 4</a>
+              <a href="24/iframe05.html" class="text-decoration-none"  target="_blank" >Atividade 5</a>
+            </div>
+          </div>
+        </div>
+     </div>
+     </div>
+
+     <div class="col-lg-3 col-sm-6 mb-4">
+        <div class="card">                   
+           <div class="card-body shadow">
+           <h5 class="card-title">Atividade 23</h5>
+           <p class="card-text">Formulários</p>
+           <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#conteudocollapse23" aria-expanded="false" aria-controls="conteudocollapse23">
+            Ver Mais
+          </button>
+          <div class="collapse mt-2 " id="conteudocollapse23">
+            <div class="card card-body">
+              <a href="25input/form01.html" class="text-decoration-none" target="_blank" >Atividade 1</a>
+              <a href="25input/form02.html" class="text-decoration-none" target="_blank" >Atividade 2</a>
+              <a href="25input/form03.html" class="text-decoration-none"  target="_blank" >Atividade 3</a>
+              <a href="25input/form04.html" class="text-decoration-none"  target="_blank" >Atividade 4</a>
+              <a href="25input/form05.html" class="text-decoration-none"  target="_blank" >Atividade 5</a>
+              <a href="25input/form06.html" class="text-decoration-none"  target="_blank" >Atividade 6</a>
+              <a href="25input/form07.html" class="text-decoration-none"  target="_blank" >Atividade 7</a>
+              <a href="25input/form08.html" class="text-decoration-none"  target="_blank" >Atividade 8</a>
+              <a href="25input/form09.html" class="text-decoration-none"  target="_blank" >Atividade 9</a>
+              <a href="25input/form10.html" class="text-decoration-none"  target="_blank" >Atividade 10</a>
+            </div>
+          </div>
+        </div>
+     </div>
+     </div>
+
+     <div class="col-lg-3 col-sm-6 mb-4">
+        <div class="card">                   
+           <div class="card-body shadow">
+           <h5 class="card-title">Atividade 24</h5>
+           <p class="card-text">Media Queries</p>
+           <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#conteudocollapse24" aria-expanded="false" aria-controls="conteudocollapse24">
+            Ver Mais
+          </button>
+          <div class="collapse mt-2 " id="conteudocollapse24">
+            <div class="card card-body">
+              <a href="26 mediaqueries/mq01/index.html" class="text-decoration-none" target="_blank" >Atividade 1</a>
+              <a href="26 mediaqueries/mq02/index.html" class="text-decoration-none" target="_blank" >Atividade 2</a>              
+              <a href="26 mediaqueries/mq04/index.html" class="text-decoration-none"  target="_blank" >Atividade 3</a>
+              <a href="26 mediaqueries/mq05/index.html" class="text-decoration-none"  target="_blank" >Atividade 4</a>              
+            </div>
+          </div>
+        </div>
+     </div>
+     </div>
+     
+     
 </div>
+
+  
 
     
   </main>
@@ -231,4 +409,11 @@
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
    
 </body>
+
+<footer class="bg-dark text-white text-center py-1 mt-4">
+    <div class="container">
+        <p class="mb-1">&copy; Feito por Athos Ruah</p>
+        
+    </div>
+</footer>
 </html>
